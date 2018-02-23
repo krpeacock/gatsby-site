@@ -40,5 +40,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-blog-power-strip-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "blog-power-strip.json",
+        "path": "/blog/power-strip/"
     }
 ]

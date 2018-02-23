@@ -11,7 +11,8 @@ exports.components = {
   "component---src-pages-404-js": preferDefault(require("/Users/kyle.peacock/code/gatsby-site/src/pages/404.js")),
   "component---src-pages-blog-index-js": preferDefault(require("/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/kyle.peacock/code/gatsby-site/src/pages/index.js")),
-  "component---src-pages-page-2-js": preferDefault(require("/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js"))
+  "component---src-pages-page-2-js": preferDefault(require("/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js")),
+  "component---src-pages-blog-power-strip-js": preferDefault(require("/Users/kyle.peacock/code/gatsby-site/src/pages/blog/power-strip.js"))
 }
 
 exports.json = {
@@ -26,5 +27,7 @@ exports.json = {
   "layout-index.json": require("/Users/kyle.peacock/code/gatsby-site/.cache/json/layout-index.json"),
   "page-2.json": require("/Users/kyle.peacock/code/gatsby-site/.cache/json/page-2.json"),
   "layout-index.json": require("/Users/kyle.peacock/code/gatsby-site/.cache/json/layout-index.json"),
-  "404-html.json": require("/Users/kyle.peacock/code/gatsby-site/.cache/json/404-html.json")
+  "404-html.json": require("/Users/kyle.peacock/code/gatsby-site/.cache/json/404-html.json"),
+  "layout-index.json": require("/Users/kyle.peacock/code/gatsby-site/.cache/json/layout-index.json"),
+  "blog-power-strip.json": require("/Users/kyle.peacock/code/gatsby-site/.cache/json/blog-power-strip.json")
 }

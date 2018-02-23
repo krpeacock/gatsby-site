@@ -5,6 +5,10 @@ html {
 }
 body {
   margin: 0;
+  color: '#415161';
+  height: '100%';
+  position: relative;
+  overflow-x: hidden;
 }
 article,
 aside,
@@ -197,7 +201,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: '#415161';
   font-family: 'Montserrat', serif;
   font-weight: normal;
   word-wrap: break-word;

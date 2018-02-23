@@ -6,7 +6,8 @@ exports.components = {
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/kyle.peacock/code/gatsby-site/src/pages/404.js"),
   "component---src-pages-blog-index-js": require("gatsby-module-loader?name=component---src-pages-blog-index-js!/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/kyle.peacock/code/gatsby-site/src/pages/index.js"),
-  "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js")
+  "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js"),
+  "component---src-pages-blog-power-strip-js": require("gatsby-module-loader?name=component---src-pages-blog-power-strip-js!/Users/kyle.peacock/code/gatsby-site/src/pages/blog/power-strip.js")
 }
 
 exports.json = {
@@ -21,7 +22,9 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/kyle.peacock/code/gatsby-site/.cache/json/layout-index.json"),
   "page-2.json": require("gatsby-module-loader?name=path---page-2!/Users/kyle.peacock/code/gatsby-site/.cache/json/page-2.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/kyle.peacock/code/gatsby-site/.cache/json/layout-index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/kyle.peacock/code/gatsby-site/.cache/json/404-html.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/kyle.peacock/code/gatsby-site/.cache/json/404-html.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/kyle.peacock/code/gatsby-site/.cache/json/layout-index.json"),
+  "blog-power-strip.json": require("gatsby-module-loader?name=path---blog-power-strip!/Users/kyle.peacock/code/gatsby-site/.cache/json/blog-power-strip.json")
 }
 
 exports.layouts = {

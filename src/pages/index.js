@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Container from '../components/Container'
 
 const wellStyles = {
   backgroundColor: "#f9fafb",
@@ -23,7 +24,7 @@ const IndexPage = () => (
       Node.js, Express, React.js, and Graphql are my go-to prototyping stack, 
       ​and I have worked with a number of older web frameworks for legacy sites.</p>
     </div>
-    <div style={{padding: '0px 1.0875rem 1.45rem', maxWidth: '960px', display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: 'auto', marginTop: '1.5em' }}>
+      <Container>
       <table style={{margin: 'auto'}}>
         <tbody>
         <tr>
@@ -48,7 +49,7 @@ const IndexPage = () => (
         </tr>
         </tbody>
       </table>
-    </div>
+    </Container>
   </div>
 )
 

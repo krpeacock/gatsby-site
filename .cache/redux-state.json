@@ -8,7 +8,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519345207681,
+      "updatedAt": 1519408661969,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ea8cff82841d25f91bdf2208465920d4",
+        "contentDigest": "6fab97963254fa36eaddbada34bd1602",
         "owner": "internal-data-bridge"
       }
     },
@@ -263,7 +263,10 @@
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -338,6 +341,22 @@
             "version": "^2.0.5"
           },
           {
+            "name": "glamor",
+            "version": "^2.20.40"
+          },
+          {
+            "name": "glamorous",
+            "version": "^4.11.6"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.2.0"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
           }
@@ -368,12 +387,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-23T00:20:05.270Z",
+      "buildTime": "2018-02-23T17:57:40.446Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bf6c86bb06b6e8c4b40bdd1803f2ac02",
+        "contentDigest": "c01a9e1bd6b554a844554bf44e37e1f4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -386,7 +405,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519345207685,
+      "updatedAt": 1519408661973,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
@@ -395,7 +414,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cb8fd52b0267a0735e87d342faa8916a",
+        "contentDigest": "bf935498534dcb4ee9fc1b8382b08a20",
         "owner": "internal-data-bridge"
       }
     },
@@ -407,7 +426,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js",
       "componentChunkName": "component---src-pages-blog-index-js",
       "context": {},
-      "updatedAt": 1519345207686,
+      "updatedAt": 1519408661974,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js",
@@ -416,7 +435,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dfadb257aa31b788600d107c28ae5d41",
+        "contentDigest": "7e19554d37afc06d0697cd67ea723eef",
         "owner": "internal-data-bridge"
       }
     },
@@ -428,7 +447,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519345207687,
+      "updatedAt": 1519408661975,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
@@ -437,7 +456,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "984b57b1d079abedb563feaed4ba8a5f",
+        "contentDigest": "81d034d73a8fb70b698f133215caaded",
         "owner": "internal-data-bridge"
       }
     },
@@ -449,7 +468,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "updatedAt": 1519345207687,
+      "updatedAt": 1519408661975,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
@@ -458,7 +477,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "26d990e808c823480fbf4e26e7109813",
+        "contentDigest": "db5308cde3c5df496f3d7fe264b26fe2",
         "owner": "internal-data-bridge"
       }
     },
@@ -470,7 +489,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519345207690,
+      "updatedAt": 1519408661978,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
@@ -479,14 +498,35 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "575420b8c611601f54dffb80b8ff464c",
+        "contentDigest": "a5e1edde9d15e73e8ab8b9803c108bbc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/power-strip/": {
+      "layout": "index",
+      "jsonName": "blog-power-strip.json",
+      "internalComponentName": "ComponentBlogPowerStrip",
+      "path": "/blog/power-strip/",
+      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/power-strip.js",
+      "componentChunkName": "component---src-pages-blog-power-strip-js",
+      "context": {},
+      "updatedAt": 1519410708873,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/power-strip.js",
+      "id": "SitePage /blog/power-strip/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bcabec6464f6660b5418a46f17a86a66",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b29c6cb161dade0f17c6e780fd456a2f"
+    "PLUGINS_HASH": "632d67c1ef9ff682e40e01034baa1c89"
   },
   "componentDataDependencies": {
     "nodes": {},
