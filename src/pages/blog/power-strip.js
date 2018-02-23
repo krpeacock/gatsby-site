@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from "gatsby-link";
 import Container from "../../components/Container";
 import glamorous from "glamorous";
 
@@ -10,7 +11,12 @@ const TitleAndDate = glamorous.div({
 });
 
 const BlogHeader = glamorous.h3({
-  marginBottom: 0
+  marginBottom: 0,
+  color: "#415161",
+  textDecoration: "none",
+  ":hover": {
+    color: "#6c8095"
+  }
 });
 
 const Date = glamorous.p({
@@ -43,7 +49,9 @@ const PowerStripPage = () => (
   <div>
     <Container>
       <TitleAndDate>
-        <BlogHeader>Power Strip</BlogHeader>
+        <Link to="/blog/power-strip" style={{ textDecoration: "none" }}>
+          <BlogHeader>Power Strip</BlogHeader>
+        </Link>
         <Date>7/19/2016</Date>
       </TitleAndDate>
       <p>
