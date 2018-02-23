@@ -13,7 +13,10 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+      <link rel="icon" type="image/png" src="/static/favicon.png"/>
+    </Helmet>
+      
     <Header />
     <div
       style={{

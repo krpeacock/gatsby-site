@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+// const homeRef = '/';
+// const blogRef = '/blog';
+
 const Header = () => (
   <div
     style={{
@@ -20,7 +23,6 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            color: 'black',
             textDecoration: 'none',
             width: 'auto',
             display: 'flex',
@@ -32,9 +34,16 @@ const Header = () => (
         <div style={{
           display: 'flex',
           flexDirection: 'row', 
-          justifyContent:'center',
-          maxWidth: '960px'
+          justifyContent:'center'
           }}>
+          <Link
+            to="/"
+            style={{
+              color: 'black',
+              textDecoration: 'none',
+              marginRight: '15px'
+            }}
+          >home</Link>
           <Link
             to="/blog"
             style={{
@@ -42,9 +51,17 @@ const Header = () => (
               textDecoration: 'none',
             }}
           >blog</Link>
+          <Link
+            to="#"
+            style={{
+              color: 'black',
+              textDecoration: 'none',
+              marginLeft: '15px'
+            }}
+          >contact</Link>
         </div>
     </div>
   </div>
-)
+);
 
 export default Header

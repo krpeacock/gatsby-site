@@ -8,7 +8,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519328918180,
+      "updatedAt": 1519345207681,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "96ac3936572b201d4f176b1efef27e85",
+        "contentDigest": "ea8cff82841d25f91bdf2208465920d4",
         "owner": "internal-data-bridge"
       }
     },
@@ -368,12 +368,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-22T19:48:24.631Z",
+      "buildTime": "2018-02-23T00:20:05.270Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0ad51927e290284bf0ba75a4bd30b409",
+        "contentDigest": "bf6c86bb06b6e8c4b40bdd1803f2ac02",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -386,7 +386,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519328918185,
+      "updatedAt": 1519345207685,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
@@ -395,70 +395,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e91151dda2b6a23c2e1f446a2bb6fed5",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "updatedAt": 1519328918189,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bf81f8ae1f261f9f8e20c2a079c30c3b",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "updatedAt": 1519328918194,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e7bfde1db852d7fa04e81b4cdc0525d4",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "updatedAt": 1519328918196,
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "04c987ab492ae89737f417dda8943b3a",
+        "contentDigest": "cb8fd52b0267a0735e87d342faa8916a",
         "owner": "internal-data-bridge"
       }
     },
@@ -470,7 +407,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js",
       "componentChunkName": "component---src-pages-blog-index-js",
       "context": {},
-      "updatedAt": 1519329969520,
+      "updatedAt": 1519345207686,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js",
@@ -479,7 +416,70 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fecd917d812b7b266dea5fbd179aa783",
+        "contentDigest": "dfadb257aa31b788600d107c28ae5d41",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1519345207687,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "984b57b1d079abedb563feaed4ba8a5f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "updatedAt": 1519345207687,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "26d990e808c823480fbf4e26e7109813",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1519345207690,
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "575420b8c611601f54dffb80b8ff464c",
         "owner": "internal-data-bridge"
       }
     }
