@@ -2,6 +2,9 @@ var plugins = [{
       plugin: require('/Users/kyle.peacock/code/gatsby-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/kyle.peacock/code/gatsby-site/node_modules/gatsby-plugin-favicon/gatsby-ssr.js'),
+      options: {"plugins":[],"logo":"./src/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
+    },{
       plugin: require('/Users/kyle.peacock/code/gatsby-site/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]

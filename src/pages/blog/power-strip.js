@@ -173,7 +173,7 @@ const PowerStripPage = () => (
         current as it passed through the circuit board, and not enough current
         was making it to the relays.
       </p>
-      <BlogImage src="/static/strip-head-on" />
+      <BlogImage src="/static/strip-head-on.jpg" />
       <p>
         At long last, I was able to close the back of the strip, only to realize
         that I had wanted a couple cables to be directed inside the pi. The

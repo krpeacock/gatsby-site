@@ -8,7 +8,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519408661969,
+      "updatedAt": 1519421641866,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6fab97963254fa36eaddbada34bd1602",
+        "contentDigest": "e4a5885a44496f02a73440c5bddd4ce7",
         "owner": "internal-data-bridge"
       }
     },
@@ -305,11 +305,98 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/Users/kyle.peacock/code/gatsby-site/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/kyle.peacock/code/gatsby-site/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "0.0.7"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e1de779aa8f1d61d6439881743ed3ef5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/kyle.peacock/code/gatsby-site",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "72c0d37b2bb406acb273b4e25d7d77c3",
+      "version": "7305966943cfc0b93106acdb349b3919",
       "pluginOptions": {
         "plugins": []
       },
@@ -318,14 +405,14 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/kyle.peacock/code/gatsby-site",
       "packageJson": {
-        "name": "gatsby-starter-default",
-        "description": "Gatsby default starter",
+        "name": "peacock-web",
+        "description": "PeacockWeb",
         "version": "1.0.0",
         "main": "n/a",
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "Kyle Peacock <kylpeacock@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -335,6 +422,10 @@
           {
             "name": "gatsby-link",
             "version": "^1.6.37"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^2.1.1"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -374,7 +465,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4d64c7ca19d42db9f918a8a8ba497680",
+        "contentDigest": "782855eb45a65c00b7dd5ab0d3a955c2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -387,12 +478,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-23T17:57:40.446Z",
+      "buildTime": "2018-02-23T21:33:59.256Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c01a9e1bd6b554a844554bf44e37e1f4",
+        "contentDigest": "0e9e714dd13da3e2d18d37f06d08d9ba",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -405,7 +496,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519408661973,
+      "updatedAt": 1519421641870,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
@@ -414,7 +505,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bf935498534dcb4ee9fc1b8382b08a20",
+        "contentDigest": "60c14ec3ccd3fc9de1971eae382b5d6d",
         "owner": "internal-data-bridge"
       }
     },
@@ -426,7 +517,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js",
       "componentChunkName": "component---src-pages-blog-index-js",
       "context": {},
-      "updatedAt": 1519408661974,
+      "updatedAt": 1519421641872,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/index.js",
@@ -435,70 +526,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7e19554d37afc06d0697cd67ea723eef",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "updatedAt": 1519408661975,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "81d034d73a8fb70b698f133215caaded",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "updatedAt": 1519408661975,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "db5308cde3c5df496f3d7fe264b26fe2",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "updatedAt": 1519408661978,
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a5e1edde9d15e73e8ab8b9803c108bbc",
+        "contentDigest": "130885b847118848aa6e48c097757671",
         "owner": "internal-data-bridge"
       }
     },
@@ -510,7 +538,7 @@
       "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/power-strip.js",
       "componentChunkName": "component---src-pages-blog-power-strip-js",
       "context": {},
-      "updatedAt": 1519410708873,
+      "updatedAt": 1519421641872,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/blog/power-strip.js",
@@ -519,14 +547,77 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bcabec6464f6660b5418a46f17a86a66",
+        "contentDigest": "7ec49068063c4f9083076b6df76a8706",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1519421641873,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5f97f1f6a0b91de4510161ca1047dfa0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "updatedAt": 1519421641874,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e3eeeb2d2e30b9046fa9fc09b325aaff",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1519421641877,
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/kyle.peacock/code/gatsby-site/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e5f5587a325c6c2d1e061f89913c220f",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "632d67c1ef9ff682e40e01034baa1c89"
+    "PLUGINS_HASH": "3f621cffd9d9f7a06c493534c8ba6395"
   },
   "componentDataDependencies": {
     "nodes": {},
