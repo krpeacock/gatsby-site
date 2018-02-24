@@ -48,6 +48,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  color: #6c8095;
 }
 abbr[title] {
   border-bottom: none;
@@ -201,7 +202,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: '#415161';
+  color: #415161;
   font-family: 'Montserrat', serif;
   font-weight: normal;
   word-wrap: break-word;

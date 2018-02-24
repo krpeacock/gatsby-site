@@ -197,7 +197,10 @@ const PowerStripPage = () => (
       </p>
       <p>
         There is a live demo at strip.peacockweb.net, and you can check out my
-        code at github.com/krpeacock/power_strip.{" "}
+        code at{" "}
+        <a href="github.com/krpeacock/power_strip">
+          github.com/krpeacock/power_strip
+        </a>.{" "}
       </p>
       <p>
         If you are interested in getting in touch with me, send me a message at

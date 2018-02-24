@@ -21,6 +21,13 @@ module.exports = {
           windows: false
         }
       }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `0hholmgktv6h`,
+        accessToken: `b39dd2a09cddaa75ff36ccbc51e1d53c8c85c4287413a4db4c9983a874dd1329`
+      }
     }
   ]
 };
