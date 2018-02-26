@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import glamorous from "glamorous";
 
 const homeRef = "/";
 // const blogRef = '/blog';
@@ -7,17 +8,21 @@ const homeRef = "/";
 const Header = () => (
   <div
     style={{
-      background: "white"
+      background: "white",
+      position: "relative",
+      zIndex: 2,
+      backgroundColor: "white"
     }}
   >
     <div
       style={{
         margin: "0 auto",
         maxWidth: 960,
-        padding: "1.45rem 1.0875rem",
         display: "flex",
         justifyContent: "center",
-        flexDirection: "column"
+        flexDirection: "column",
+        position: "relative",
+        zIndex: 2
       }}
     >
       <Link
@@ -37,40 +42,49 @@ const Header = () => (
       <div
         style={{
           display: "flex",
-          flexDirection: "row",
-          justifyContent: "center"
+          flexDirection: "column",
+          alignItems: "center"
         }}
       >
-        <Link
-          to="/"
-          active={window.location.pathname === homeRef}
+        <div
           style={{
-            color: "#415161",
-            textDecoration: "none",
-            marginRight: "15px"
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            marginBottom: "10px"
           }}
         >
-          home
-        </Link>
-        <Link
-          to="/blog"
-          style={{
-            color: "black",
-            textDecoration: "none"
-          }}
-        >
-          blog
-        </Link>
-        <Link
-          to="#"
-          style={{
-            color: "#415161",
-            textDecoration: "none",
-            marginLeft: "15px"
-          }}
-        >
-          contact
-        </Link>
+          <Link
+            to="/"
+            active={window.location.pathname === homeRef}
+            style={{
+              color: "#415161",
+              textDecoration: "none",
+              marginRight: "15px"
+            }}
+          >
+            home
+          </Link>
+          <Link
+            to="/blog"
+            style={{
+              color: "black",
+              textDecoration: "none"
+            }}
+          >
+            blog
+          </Link>
+          <Link
+            to="#"
+            style={{
+              color: "#415161",
+              textDecoration: "none",
+              marginLeft: "15px"
+            }}
+          >
+            contact
+          </Link>
+        </div>
       </div>
     </div>
   </div>

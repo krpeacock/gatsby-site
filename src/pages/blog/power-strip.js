@@ -203,8 +203,9 @@ const PowerStripPage = () => (
         </a>.{" "}
       </p>
       <p>
-        If you are interested in getting in touch with me, send me a message at
-        kyle@peacockweb.net!
+        If you are interested in getting in touch with me, send me a message
+        at&nbsp;
+        <a href="mailto@kyle@peacockweb.net">kyle@peacockweb.net</a>!
       </p>
     </Container>
   </div>
