@@ -1,9 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import faArrowSquareLeft from "@fortawesome/fontawesome-pro-regular/faArrowSquareLeft";
-import faArrowSquareRight from "@fortawesome/fontawesome-pro-regular/faArrowSquareRight";
 import "./carousel.css";
 
 const Slide = styled.div``;
@@ -13,7 +10,7 @@ const SlideImg = styled.img`
   max-height: 600px;
 `;
 
-const Icon = styled(FontAwesomeIcon)`
+const Icon = styled.img`
   z-index: 2;
   width: 30px;
   height: 30px;
@@ -23,8 +20,8 @@ const settings = {
   autoplay: false,
   autoplaySpeed: 2000,
   dots: true,
-  prevArrow: <Icon icon={faArrowSquareLeft} name="arrow-square-left" />,
-  nextArrow: <Icon icon={faArrowSquareRight} name="arrow-square-right" />
+  prevArrow: <Icon src="/static/icons/regular/arrow-alt-square-left.svg" />,
+  nextArrow: <Icon src="/static/icons/regular/arrow-alt-square-right.svg" />
 };
 
 const CarouselExport = () => (
