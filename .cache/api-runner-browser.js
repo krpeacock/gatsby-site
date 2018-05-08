@@ -1,5 +1,5 @@
 var plugins = [{
-      plugin: require('/Users/kyle.peacock/code/gatsby-site/gatsby-browser.js'),
+      plugin: require('/Users/kyle/code/gatsby-site/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks

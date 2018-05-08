@@ -1,23 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import glamorous from "glamorous";
+import styled from "styled-components";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./index.css";
 
-const ContactList = glamorous.div({
-  width: "70px",
-  position: "absolute",
-  zIndex: "1",
-  left: "50%",
-  alignSelf: "center",
-  justifyContent: "center",
-  alignItems: "center",
-  backgroundColor: "white",
-  marginLeft: "23px"
-});
+const ContactList = styled.div`
+  width: 70px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 23px;
+`;
 
 const StatefulContactList = ({ contactOpen }) => (
   <ContactList
@@ -42,9 +42,13 @@ class TemplateWrapper extends React.Component {
       <div>
         <div style={{ minHeight: "100%", paddingBottom: "60px" }}>
           <Helmet
-            title="PeacockWeb"
+            title="Kyle Peacock's personal site"
             meta={[
-              { name: "description", content: "Sample" },
+              {
+                name: "description",
+                content:
+                  "Perpetually in-progress website for a professional developer"
+              },
               { name: "keywords", content: "sample, something" }
             ]}
           >

@@ -56,7 +56,7 @@ const Header = () => (
         >
           <Link
             to="/"
-            active={window.location.pathname === homeRef}
+            className={window.location.pathname === homeRef ? "active" : ""}
             style={{
               color: "#415161",
               textDecoration: "none",
