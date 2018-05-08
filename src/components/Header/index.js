@@ -5,6 +5,8 @@ import glamorous from "glamorous";
 const homeRef = "/";
 // const blogRef = '/blog';
 
+let window = window || { location: "" };
+
 const Header = () => (
   <div
     style={{
@@ -75,7 +77,7 @@ const Header = () => (
             blog
           </Link>
           <Link
-            to="#"
+            to="/contact"
             style={{
               color: "#415161",
               textDecoration: "none",

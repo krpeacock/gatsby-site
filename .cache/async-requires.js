@@ -6,6 +6,7 @@ exports.components = {
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/kyle/code/gatsby-site/src/pages/404.js"),
   "component---src-pages-blog-index-js": require("gatsby-module-loader?name=component---src-pages-blog-index-js!/Users/kyle/code/gatsby-site/src/pages/blog/index.js"),
   "component---src-pages-blog-power-strip-js": require("gatsby-module-loader?name=component---src-pages-blog-power-strip-js!/Users/kyle/code/gatsby-site/src/pages/blog/power-strip.js"),
+  "component---src-pages-contact-js": require("gatsby-module-loader?name=component---src-pages-contact-js!/Users/kyle/code/gatsby-site/src/pages/contact.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/kyle/code/gatsby-site/src/pages/index.js"),
   "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!/Users/kyle/code/gatsby-site/src/pages/page-2.js")
 }
@@ -19,6 +20,8 @@ exports.json = {
   "blog.json": require("gatsby-module-loader?name=path---blog!/Users/kyle/code/gatsby-site/.cache/json/blog.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),
   "blog-power-strip.json": require("gatsby-module-loader?name=path---blog-power-strip!/Users/kyle/code/gatsby-site/.cache/json/blog-power-strip.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),
+  "contact.json": require("gatsby-module-loader?name=path---contact!/Users/kyle/code/gatsby-site/.cache/json/contact.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/kyle/code/gatsby-site/.cache/json/index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),

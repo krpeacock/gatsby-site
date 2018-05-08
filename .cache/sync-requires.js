@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-404-js": preferDefault(require("/Users/kyle/code/gatsby-site/src/pages/404.js")),
   "component---src-pages-blog-index-js": preferDefault(require("/Users/kyle/code/gatsby-site/src/pages/blog/index.js")),
   "component---src-pages-blog-power-strip-js": preferDefault(require("/Users/kyle/code/gatsby-site/src/pages/blog/power-strip.js")),
+  "component---src-pages-contact-js": preferDefault(require("/Users/kyle/code/gatsby-site/src/pages/contact.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/kyle/code/gatsby-site/src/pages/index.js")),
   "component---src-pages-page-2-js": preferDefault(require("/Users/kyle/code/gatsby-site/src/pages/page-2.js"))
 }
@@ -24,6 +25,8 @@ exports.json = {
   "blog.json": require("/Users/kyle/code/gatsby-site/.cache/json/blog.json"),
   "layout-index.json": require("/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),
   "blog-power-strip.json": require("/Users/kyle/code/gatsby-site/.cache/json/blog-power-strip.json"),
+  "layout-index.json": require("/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),
+  "contact.json": require("/Users/kyle/code/gatsby-site/.cache/json/contact.json"),
   "layout-index.json": require("/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),
   "index.json": require("/Users/kyle/code/gatsby-site/.cache/json/index.json"),
   "layout-index.json": require("/Users/kyle/code/gatsby-site/.cache/json/layout-index.json"),

@@ -8,7 +8,7 @@
       "component": "/Users/kyle/code/gatsby-site/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1525803129247,
+      "updatedAt": 1525813526650,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/kyle/code/gatsby-site/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0bcefbb79256dacdfb80023d2161389e",
+        "contentDigest": "e330e7f98e008e53d3059c167f676b80",
         "owner": "internal-data-bridge"
       }
     },
@@ -499,6 +499,22 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "@fortawesome/fontawesome",
+            "version": "^1.1.7"
+          },
+          {
+            "name": "@fortawesome/fontawesome-pro-regular",
+            "version": "^5.0.12"
+          },
+          {
+            "name": "@fortawesome/fontawesome-pro-webfonts",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "0.0.19"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.204"
           },
@@ -539,12 +555,20 @@
             "version": "^16.3.2"
           },
           {
+            "name": "react-fontawesome",
+            "version": "^1.6.1"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
           },
           {
             "name": "react-responsive-carousel",
             "version": "^3.1.37"
+          },
+          {
+            "name": "react-slick",
+            "version": "^0.23.1"
           },
           {
             "name": "styled-components",
@@ -577,12 +601,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-08T18:12:03.359Z",
+      "buildTime": "2018-05-08T21:05:20.083Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c5c3de99f069ae72cdad4d58bd97d00b",
+        "contentDigest": "7a67a566512c3ab0e54181658c8703ae",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -696,7 +720,7 @@
       "component": "/Users/kyle/code/gatsby-site/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1525803129254,
+      "updatedAt": 1525813526662,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle/code/gatsby-site/src/pages/404.js",
@@ -705,7 +729,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8c23fe48298b95208e019b5d6bce58ed",
+        "contentDigest": "730eae10739c6be24262a2b742d50357",
         "owner": "internal-data-bridge"
       }
     },
@@ -717,7 +741,7 @@
       "component": "/Users/kyle/code/gatsby-site/src/pages/blog/index.js",
       "componentChunkName": "component---src-pages-blog-index-js",
       "context": {},
-      "updatedAt": 1525803129255,
+      "updatedAt": 1525813526664,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle/code/gatsby-site/src/pages/blog/index.js",
@@ -726,7 +750,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e5869b61e9d206f555dad2de2a817be6",
+        "contentDigest": "1cd765f94a4b0d887676731bec96d89a",
         "owner": "internal-data-bridge"
       }
     },
@@ -738,7 +762,7 @@
       "component": "/Users/kyle/code/gatsby-site/src/pages/blog/power-strip.js",
       "componentChunkName": "component---src-pages-blog-power-strip-js",
       "context": {},
-      "updatedAt": 1525803129255,
+      "updatedAt": 1525813526667,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle/code/gatsby-site/src/pages/blog/power-strip.js",
@@ -747,7 +771,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7c33ac2c8bc5a4c71355d44ef6d85ac0",
+        "contentDigest": "b593e3627926d91fd41f26ad1fd486eb",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/kyle/code/gatsby-site/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "updatedAt": 1525813526669,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/kyle/code/gatsby-site/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "786310db47754a3f01224d3ac7b4d752",
         "owner": "internal-data-bridge"
       }
     },
@@ -759,7 +804,7 @@
       "component": "/Users/kyle/code/gatsby-site/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1525803129257,
+      "updatedAt": 1525813526671,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle/code/gatsby-site/src/pages/index.js",
@@ -768,7 +813,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c73dee65b59f86d12a2a5d425d1191b0",
+        "contentDigest": "fbf381a407b6d40290d7d7ca1fc04108",
         "owner": "internal-data-bridge"
       }
     },
@@ -780,7 +825,7 @@
       "component": "/Users/kyle/code/gatsby-site/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "updatedAt": 1525803129259,
+      "updatedAt": 1525813526673,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/kyle/code/gatsby-site/src/pages/page-2.js",
@@ -789,7 +834,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8eeccffae26ac5ebe25af5c95bfed807",
+        "contentDigest": "5d98b911cd52d347bcfd46554cb84be5",
         "owner": "internal-data-bridge"
       }
     },
@@ -801,7 +846,7 @@
       "component": "/Users/kyle/code/gatsby-site/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1525803129266,
+      "updatedAt": 1525813526679,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/kyle/code/gatsby-site/src/pages/404.js",
@@ -810,7 +855,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f4bc58d5be11a34e6de080916e26e363",
+        "contentDigest": "d7710af329906f98aee8dc9d3b28e598",
         "owner": "internal-data-bridge"
       }
     }
@@ -821,7 +866,7 @@
         "0hholmgktv6h-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDlHDCiQPDicOHDm_DiMKZGMKZw4IywoDCv8OUw7XCtggtw4VcODtiwp1YVSTDu8OCV352w5htOBYAwrccC8Kww5lNwoJOw5EoUipoBMOOw5p9wqrCrcOjw7ojw7N9"
       }
     },
-    "PLUGINS_HASH": "439193dcc1863dbad98f406568fa6c5d"
+    "PLUGINS_HASH": "953d0f375a59bab7a003c175e2672c88"
   },
   "componentDataDependencies": {
     "nodes": {},
