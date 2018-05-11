@@ -5,11 +5,7 @@ import glamorous from "glamorous";
 const homeRef = "/";
 // const blogRef = '/blog';
 
-if (!window) {
-  const location = { pathname: "" };
-}
-
-const Header = () => (
+const Header = ({ location }) => (
   <div
     style={{
       background: "white",

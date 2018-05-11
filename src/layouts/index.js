@@ -27,7 +27,7 @@ class TemplateWrapper extends React.Component {
     };
   }
   render() {
-    const { children } = this.props;
+    const { children, location } = this.props;
     const { contactOpen } = this.state;
     return (
       <div>
@@ -45,7 +45,7 @@ class TemplateWrapper extends React.Component {
           >
             <link rel="icon" type="image/png" src="/static/favicon.png" />
           </Helmet>
-          <Header />
+          <Header location={location} />
           <div
             style={{
               margin: "0 auto",
