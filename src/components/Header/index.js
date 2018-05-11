@@ -5,7 +5,7 @@ import glamorous from "glamorous";
 const homeRef = "/";
 // const blogRef = '/blog';
 
-let window = window || { location: "" };
+let location = location || { pathname: "" };
 
 const Header = () => (
   <div
