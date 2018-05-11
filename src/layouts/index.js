@@ -19,15 +19,6 @@ const ContactList = styled.div`
   margin-left: 23px;
 `;
 
-const StatefulContactList = ({ contactOpen }) => (
-  <ContactList
-    style={{ top: contactOpen ? "9em" : "7em" }}
-    contactOpen={contactOpen}
-  >
-    <a href="https://github.com/krpeacock">GitHub</a>
-  </ContactList>
-);
-
 class TemplateWrapper extends React.Component {
   constructor(props) {
     super(props);
@@ -54,11 +45,7 @@ class TemplateWrapper extends React.Component {
           >
             <link rel="icon" type="image/png" src="/static/favicon.png" />
           </Helmet>
-
           <Header />
-          <StatefulContactList contactOpen={contactOpen}>
-            GitHub
-          </StatefulContactList>
           <div
             style={{
               margin: "0 auto",

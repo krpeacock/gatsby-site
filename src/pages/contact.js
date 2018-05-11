@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const StyledDiv = styled.div`
   display: flex;
+  padding: 2em;
   flex-direction: column;
   align-items: center;
   margin: 10px auto;
@@ -27,7 +28,7 @@ export default () => (
       <ConsistentSpan>Github:</ConsistentSpan>{" "}
       <a href="https://github.com/krpeacock">https://github.com/krpeacock</a>
       <hr />
-      <p>If you're interested in working with me:</p>
+      <span>If you're interested in working with me:</span>
       <ConsistentSpan>Check out my resume - </ConsistentSpan>{" "}
       <a
         href="https://docs.google.com/document/d/17bodJJkgD76tYKhIOg-cEJlXrRGoOWpcKzUobClP5y8/edit?usp=sharing"
