@@ -21,8 +21,8 @@ const IndexPage = () => (
     <div style={wellStyles}>
       <h2 style={{ color: "#415161" }}>Creative Developer</h2>
       <p style={{ maxWidth: "960px", margin: "auto" }}>
-        My name is Kyle Peacock, and I'm a full-stack web developer and
-        marketing specialist. Node.js, Express, React.js, and Graphql are my
+        My name is Kyle Peacock, and I'm a full-stack web developer and user
+        interface specialist. React.js, Node.js, Express, and Graphql are my
         go-to prototyping stack, ​and I have worked with a number of older web
         frameworks for legacy sites.
       </p>

@@ -13,7 +13,8 @@ const Header = () => (
       background: "white",
       position: "relative",
       zIndex: 2,
-      backgroundColor: "white"
+      backgroundColor: "white",
+      paddingTop: "10px"
     }}
   >
     <div
@@ -58,9 +59,8 @@ const Header = () => (
         >
           <Link
             to="/"
-            className={window.location.pathname === homeRef ? "active" : ""}
+            className={location.pathname === homeRef ? "active" : ""}
             style={{
-              color: "#415161",
               textDecoration: "none",
               marginRight: "15px"
             }}
@@ -69,8 +69,8 @@ const Header = () => (
           </Link>
           <Link
             to="/blog"
+            className={location.pathname.includes("blog") ? "active" : ""}
             style={{
-              color: "black",
               textDecoration: "none"
             }}
           >
@@ -78,8 +78,8 @@ const Header = () => (
           </Link>
           <Link
             to="/contact"
+            className={location.pathname.includes("contact") ? "active" : ""}
             style={{
-              color: "#415161",
               textDecoration: "none",
               marginLeft: "15px"
             }}

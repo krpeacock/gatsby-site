@@ -5,6 +5,7 @@ import "./carousel.css";
 
 const Slide = styled.div`
   text-align: center;
+  padding: 2em;
   p {
     position: relative;
     top: -2em;
@@ -17,7 +18,6 @@ const Slide = styled.div`
 `;
 
 const SlideImg = styled.img`
-  height: 100%;
   max-height: 600px;
   margin: auto;
 `;
@@ -29,9 +29,8 @@ const Icon = styled.img`
 `;
 
 const settings = {
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 2000,
-  dots: true,
   prevArrow: <Icon src="/static/icons/regular/arrow-alt-square-left.svg" />,
   nextArrow: <Icon src="/static/icons/regular/arrow-alt-square-right.svg" />
 };
@@ -45,6 +44,10 @@ const CarouselExport = () => (
     <Slide>
       <SlideImg src="/static/gettingcollegeready.png" />
       <p>Single-page React application for Wells Fargo</p>
+    </Slide>
+    <Slide>
+      <SlideImg src="/static/bach.png" />
+      <p>Webmaster for the sf bach choir</p>
     </Slide>
   </Slider>
 );
