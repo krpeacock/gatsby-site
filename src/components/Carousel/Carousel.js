@@ -3,11 +3,23 @@ import Slider from "react-slick";
 import styled from "styled-components";
 import "./carousel.css";
 
-const Slide = styled.div``;
+const Slide = styled.div`
+  text-align: center;
+  p {
+    position: relative;
+    top: -2em;
+    padding: 1em;
+    width: 100%
+    background-color: black;
+    opacity: .8;
+    color: white;
+  }
+`;
 
 const SlideImg = styled.img`
   height: 100%;
   max-height: 600px;
+  margin: auto;
 `;
 
 const Icon = styled.img`
@@ -27,11 +39,11 @@ const settings = {
 const CarouselExport = () => (
   <Slider {...settings}>
     <Slide>
-      <img src="/static/audiscreenshot.png" />
+      <SlideImg src="/static/audiscreenshot.png" />
       <p>Audiusa website and platform upgrades</p>
     </Slide>
     <Slide>
-      <img src="/static/gettingcollegeready.png" />
+      <SlideImg src="/static/gettingcollegeready.png" />
       <p>Single-page React application for Wells Fargo</p>
     </Slide>
   </Slider>
