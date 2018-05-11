@@ -29,6 +29,7 @@ export default () => (
       <a href="https://github.com/krpeacock">https://github.com/krpeacock</a>
       <hr />
       <span>If you're interested in working with me:</span>
+      <br />
       <ConsistentSpan>Check out my resume - </ConsistentSpan>{" "}
       <a
         href="https://docs.google.com/document/d/17bodJJkgD76tYKhIOg-cEJlXrRGoOWpcKzUobClP5y8/edit?usp=sharing"
