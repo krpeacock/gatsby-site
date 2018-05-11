@@ -8,7 +8,7 @@ const Slide = styled.div`
   padding: 2em;
   p {
     position: relative;
-    top: -2em;
+    top: -3.4em;
     padding: 1em;
     width: 100%
     background-color: black;
@@ -29,7 +29,7 @@ const Icon = styled.img`
 `;
 
 const settings = {
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 2000,
   prevArrow: <Icon src="/static/icons/regular/arrow-alt-square-left.svg" />,
   nextArrow: <Icon src="/static/icons/regular/arrow-alt-square-right.svg" />
