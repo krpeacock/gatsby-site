@@ -19,7 +19,7 @@ export default () => (
     <h1>Contact</h1>
     <p>
       <ConsistentSpan>By email:</ConsistentSpan>{" "}
-      <a href="mailto:kyle@peacockweb.net">kyle@peacockweb.net</a>
+      <a href="mailto:kylpeacock@gmail.com">kylpeacock@gmail.com</a>
       <br /> <ConsistentSpan>Linkedin:</ConsistentSpan>{" "}
       <a href="https://linkedin.com/in/krpeacock">
         https://linkedin.com/in/krpeacock
