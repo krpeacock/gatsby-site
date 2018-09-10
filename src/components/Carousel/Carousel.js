@@ -10,9 +10,9 @@ const Slide = styled.div`
     position: relative;
     top: -3.4em;
     padding: 1em;
-    width: 100%
+    width: 100%;
     background-color: black;
-    opacity: .8;
+    opacity: 0.8;
     color: white;
   }
 `;

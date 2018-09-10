@@ -1,59 +1,16 @@
 import React, { Component } from "react";
-import Link from "gatsby-link";
 import Container from "../../components/Container";
+import {
+  TitleSection,
+  BlogImage,
+  Description
+} from "../../components/BlogComponents";
 import glamorous from "glamorous";
-
-const TitleAndDate = glamorous.div({
-  borderBottom: "1px solid #e6e9eb",
-  paddingBottom: "0.2em",
-  marginBottom: "1em",
-  height: "auto"
-});
-
-const BlogHeader = glamorous.h3({
-  marginBottom: 0,
-  color: "#415161",
-  textDecoration: "none",
-  ":hover": {
-    color: "#6c8095"
-  }
-});
-
-const Date = glamorous.p({
-  fontSize: "14px",
-  marginBottom: 0
-});
-
-const Description = glamorous.p({
-  textAlign: "center"
-});
-
-const StyledImage = glamorous.img({
-  margin: "auto",
-  marginBottom: 0
-});
-
-const Column = glamorous.div({
-  display: "flex",
-  flexDirection: "column"
-});
-
-const BlogImage = ({ src, children }) => (
-  <Column>
-    <StyledImage src={src} />
-    <Description>{children}</Description>
-  </Column>
-);
 
 const PowerStripPage = () => (
   <div>
     <Container>
-      <TitleAndDate>
-        <Link to="/blog/power-strip" style={{ textDecoration: "none" }}>
-          <BlogHeader>Power Strip</BlogHeader>
-        </Link>
-        <Date>7/19/2016</Date>
-      </TitleAndDate>
+      <TitleSection title="Power Strip" date="7/19/2016" />
       <p>
         It's been a couple months coming now, but I'm nearing version 1.0 of my
         power strip! You may be asking a few questions now, like "what power
